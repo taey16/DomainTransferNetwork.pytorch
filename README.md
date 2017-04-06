@@ -35,4 +35,5 @@
 - [dcgan.pytorch](https://github.com/pytorch/examples/tree/master/dcgan)
 - [imagenet.pytorch](https://github.com/pytorch/examples/tree/master/imagenet)
 - **FANTASTIC pytorch** [pytorch doc](http://pytorch.org/docs/notes/autograd.html)
+- [genhacks from soumith](https://github.com/soumith/ganhacks)
 - [Plug and Play Generative Network](https://arxiv.org/abs/1612.00005)
