@@ -212,7 +212,7 @@ for epoch in range(opt.niter):
     if opt.datasetB == 'mnist':
       target_cpu_1c, _ = target_iter.next()
       source_cpu, label_source = source_iter.next()
-      label_source -= 1 # torch.vision.svhn returns labels randed from 1 to 10
+      label_source -= 1 # torch.vision.svhn returns labels ranged from 1 to 10
       # replacate 1-channel 2D array in MNIST in 3 times
       target_cpu = torch.FloatTensor(target_cpu_1c.size(0), 
                                      outputChannelSize, 
@@ -290,7 +290,6 @@ for epoch in range(opt.niter):
       # MSE loss between f(x) and f(g(f(x))) as described in Eq.(5)
       _, output_h_source = netE(x_hat_source)
       L_const_ = criterionCAE(output_h_source, h_source.detach())
-
     L_const = alphaCONST * L_const_
     if alphaCONST <> 0:
       L_const.backward(retain_variables=True)
