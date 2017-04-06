@@ -21,7 +21,7 @@
 
 # Results (Style transfer)
 - Style transfer as a specific case of the domain transfer
-- not yet
+- not yet implemented
 
 # NOTE
 - **We used crossentropy loss computing [L_CONST](https://github.com/taey16/DomainTransferNetwork.pytorch/blob/master/main_dtnetgan.py#L285-L287) (i.e. Eq.5 in the paper)**
