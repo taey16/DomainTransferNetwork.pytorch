@@ -19,6 +19,10 @@
 # Results
 - Randomly selected samples in **source domain**
 ![source domain](https://github.com/taey16/DomainTransferNetwork.pytorch/blob/master/imgs/samples_real_source.png)
+
+- **Domain transferred samples from corresponding inputs**
+[generated](https://github.com/taey16/DomainTransferNetwork.pytorch/blob/master/imgs/generated_epoch_00000007_iter00113000.png)
+
 - Randomly selected samples in **target domain**
 ![target domain](https://github.com/taey16/DomainTransferNetwork.pytorch/blob/master/imgs/samples_real_target.png)
-- Domain transferred samples from corresponding inputs
+
