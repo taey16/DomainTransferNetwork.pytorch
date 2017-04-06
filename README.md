@@ -32,4 +32,4 @@
 
 # Reference
 - [dcgan.pytorch](https://github.com/pytorch/examples/tree/master/dcgan)
-- FANTASTIC [pytorch](https://github.com/pytorch/pytorch)
+- **FANTASTIC pytorch** [pytorch doc](http://pytorch.org/docs/notes/autograd.html)
