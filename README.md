@@ -13,12 +13,16 @@
 - **And then, train DTN**
  - ```CUDA_VISIBLE_DEVICES=x python main_dtnetgan.py --datasetA svhn --datarootA /path/to/svhn/extra/ --valDatarootA /path/to/svhn/test/ --datasetB mnist --datarootB /path/to/mnist/train/ --valDatarootB /path/to/test/ --netE /path/to/previously/trained/model/netE_epoch_xx.pth --exp S2M --crossentropy```
 
-# Results
+# Results (Domain transfer)
 - Randomly selected samples in **source domain**
 ![source domain](https://github.com/taey16/DomainTransferNetwork.pytorch/blob/master/imgs/samples_real_source.png)
 
 - **Domain transferred samples from corresponding inputs**
 ![generated](https://github.com/taey16/DomainTransferNetwork.pytorch/blob/master/imgs/generated_epoch_00000007_iter00113000.png)
+
+# Results (Style transfer)
+- Style transfer as a specific case of the domain transfer
+- not yet
 
 # NOTE
 - **We used crossentropy loss computing L_CONST (i.e. Eq.5 in the paper)** which seems to generate better images.
