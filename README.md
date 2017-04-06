@@ -6,6 +6,7 @@
 # Run
 - **Train function f in source domain(SVHN), first**
  - ```CUDA_VISIBLE_DEVICES=x python main_recog.py --dataset svhn --dataroot /path/to/svhn/extra/ --valDataroot /path/to/svhn/test/ --exp recog_svhn```
+ - Datasets will be downloaded automatically in the paths you specified
  - Resulting model is saved in recog_svhn directory named like netE_epoch_xx.pth
  - You will reach at ~95.xx % of accuracy.
 
