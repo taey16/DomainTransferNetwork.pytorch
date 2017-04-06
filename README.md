@@ -22,3 +22,10 @@
 
 - **Domain transferred samples from corresponding inputs**
 ![generated](https://github.com/taey16/DomainTransferNetwork.pytorch/blob/master/imgs/generated_epoch_00000007_iter00113000.png)
+
+# NOTE
+- **We used crossentropy loss computing L_CONST (i.e. Eq.5 in the paper)** which seems to generate better images.
+
+# Reference
+- [dcgan.pytorch](https://github.com/pytorch/examples/tree/master/dcgan)
+- FANTASTIC [pytorch](https://github.com/pytorch/pytorch)
