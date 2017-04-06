@@ -25,7 +25,7 @@
 - not yet
 
 # NOTE
-- **We used crossentropy loss computing L_CONST (i.e. Eq.5 in the paper)** which seems to generate better images.
+- **We used crossentropy loss computing [L_CONST](https://github.com/taey16/DomainTransferNetwork.pytorch/blob/master/main_dtnetgan.py#L285-L287) (i.e. Eq.5 in the paper)** which seems to generate better images.
 - You can easily change direction of domain transfer such that MNIST to SVHN
 - ```CUDA_VISIBLE_DEVICES=x python main_recog.py --dataset mnist --dataroot /path/to/mnist/train/ --valDataroot /path/to/mnist/test/ --exp recog_mnist```
 - ```CUDA_VISIBLE_DEVICES=x python main_dtnetgan.py --datasetA mnist --datarootA /path/to/mnist/train/ --valDatarootA /path/to/mnist/test/ --datasetB svhn --datarootB /path/to/svhn/extra/ --valDatarootB /path/to/svhn/test/ --netE /path/to/pretrained/model/netE_epoch_xx.pth --exp M2S```
