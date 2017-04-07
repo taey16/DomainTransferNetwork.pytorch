@@ -330,7 +330,6 @@ for epoch in range(opt.niter):
 
     # generating images
     if ganIterations % opt.evalIter == 0:
-      # NOTE: instance normalization
       val_batch_output = torch.FloatTensor(val_source.size(0), 
                                            inputChannelSize, 
                                            val_source.size(2), 
